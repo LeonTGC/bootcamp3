@@ -1,0 +1,17 @@
+// console.log("hello there".toUpperCase())
+// console.log("HellO TherE".toLowerCase())
+// generates a random number between 0 - 1
+// console.log(Math.round(Math.random()*10))
+// console.log(Math.random()*10)
+
+console.log("   |   |   ")
+console.log("   |   |   ")
+console.log("   |   |   ")
+console.log("-----------")
+console.log("   |   |   ")
+console.log("   |   |   ")
+console.log("   |   |   ")
+console.log("-----------")
+console.log("   |   |   ")
+console.log("   |   |   ")
+console.log("   |   |   ")
