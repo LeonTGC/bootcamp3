@@ -60,11 +60,28 @@ let books = [
 // }
 // console.log(nums)
 
-let divisbleByTwo = []
+// let divisbleByTwo = []
 
-for (let i = 1; i <= 20; i++){
-    if(i % 2 === 0){
-        divisbleByTwo.push(i)
-    }
+// for (let i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         divisbleByTwo.push(i)
+//     }
+// }
+// console.log(divisbleByTwo)
+
+// let age = 15
+
+// while (age < 18) {
+//     console.log(`you're a child, you are ${age}`)
+//     age++
+// }
+// console.log("you are now an adult")
+
+let cards = ["spade", "heart", "clubs", "diamond"]
+let currentCard = "clubs"
+
+while (currentCard !== "spade"){
+    console.log(`card selected ${currentCard}`)
+    currentCard = cards[Math.floor(Math.random() * 4)]
 }
-console.log(divisbleByTwo)
+console.log(currentCard)
